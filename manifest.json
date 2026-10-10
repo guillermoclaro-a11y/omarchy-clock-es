@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "guillermo.clock",
+  "name": "Reloj",
+  "version": "1.0.0",
+  "author": "guillermoclaro-a11y",
+  "description": "Reloj y calendario en español (Spanish clock & calendar widget)",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Reloj",
+    "description": "Reloj con calendario integrado, totalmente en español",
+    "category": "Time",
+    "allowMultiple": false
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.clock"
+  }
+}
